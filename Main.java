@@ -1,8 +1,8 @@
 //i am Phani Ram Teja Ravipati
-//December 13, 2020
+/*This is a ceaser encryption, you can choose by how many letters
+  you want to switch your encription by */
 
 import java.lang.String;
-import java.util.*;
 import java.util.Scanner;
 
 public class Main
@@ -27,7 +27,6 @@ public class Main
       System.out.println("Enter a number ");
       number = Integer.parseInt(stdInScanner.nextLine());
       
-      // i got a little help from a website that i cited in the comment at the submission.
       if(number>0&&number<26)
       {
        break;
